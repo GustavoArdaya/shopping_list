@@ -1,0 +1,15 @@
+.title {
+  color: blue;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product {
+  border: solid 1px black;
+}
+.itemContainer {
+  list-style: none;
+}
