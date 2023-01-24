@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 let productList = [
   {
@@ -16,18 +16,23 @@ let productList = [
     name: 'Huevos',
     isBought: false,
   },
-];
+]
+let idToModify = ''
 
 export default function ItemList() {
-  const [products, setProducts] = useState(productList);
+  const [products, setProducts] = useState(productList)
 
   const deleteById = (idItem) => {
     // console.log('funcionoooo!');
-    let newData = products.filter((item) => item.id !== idItem);
+    let newData = products.filter((item) => item.id !== idItem)
 
-    console.log(newData);
-    setProducts(newData);
-  };
+    console.log(newData)
+    setProducts(newData)
+  }
+  const editById = (idItem) => {
+    idToModify = idItem
+    console.log(idToModify)
+  }
 
   return (
     <div>
@@ -36,10 +41,11 @@ export default function ItemList() {
         {productList.map((item) => (
           <li key={item.id}>
             {item.name}
+            <button onClick={() => editById(item.id)}>Editar</button>
             <button onClick={() => deleteById(item.id)}>Eliminar</button>
           </li>
         ))}
       </ul>
     </div>
-  );
+  )
 }
