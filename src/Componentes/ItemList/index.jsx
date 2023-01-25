@@ -1,25 +1,26 @@
-import React, { useState } from "react";
-import Item from "../Item/Item";
-import styles from "./itemList.module.css";
+import React, { useState } from 'react';
+import Item from '../Item/Item';
+import ProductForm from '../ProductForm/ProductForm';
+import styles from './itemList.module.css';
 
 let productList = [
   {
-    id: "1",
-    name: "Patatas",
+    id: '1',
+    name: 'Patatas',
     isBought: false,
   },
   {
-    id: "2",
-    name: "Leche",
+    id: '2',
+    name: 'Leche',
     isBought: true,
   },
   {
-    id: "3",
-    name: "Huevos",
+    id: '3',
+    name: 'Huevos',
     isBought: false,
   },
 ];
-let idToModify = "";
+let idToModify = '';
 
 export default function ItemList() {
   const [products, setProducts] = useState(productList);
@@ -40,6 +41,7 @@ export default function ItemList() {
     <div>
       <div className={styles.mainContainer}>
         <h2 className={styles.title}>Shopping List</h2>
+        <ProductForm />
         <ul className={styles.itemContainer}>
           {products.map((item) => (
             <Item
