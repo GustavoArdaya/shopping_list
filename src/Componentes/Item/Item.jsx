@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./item.module.css"
+import styles from "./Item.module.css"
 import { GrEdit } from 'react-icons/gr';
 import { RiDeleteBin5Line } from "react-icons/ri";
 
