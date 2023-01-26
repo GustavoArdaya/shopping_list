@@ -1,0 +1,22 @@
+.item {
+    border: solid 1px black;
+    list-style: none;
+    height: 40px;
+    width: 175px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.iconsContainer{
+    display: flex;
+    gap: 10px;
+}
+
+
+/* .liContainer {
+    display: flex;
+    gap: 10px;
+} */

@@ -1,15 +1,5 @@
-/* .title {
-  color: blue;
-}
-.mainContainer {
+.itemContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  gap: 10px;
 }
-.product {
-  border: solid 1px black;
-}
-.itemContainer {
-  list-style: none;
-} */
