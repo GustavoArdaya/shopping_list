@@ -1,0 +1,12 @@
+.navContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.textNavbar {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

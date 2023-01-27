@@ -36,6 +36,12 @@
     transform: rotate(360deg);
   }
 } */
- /* body{
-  background-color: aqua;
- } */
+body {
+  background: linear-gradient(to bottom right, #1283a2, #09617a24);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
