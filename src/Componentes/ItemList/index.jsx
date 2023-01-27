@@ -22,6 +22,11 @@ let productList = [
     name: 'Huevos',
     isBought: false,
   },
+  {
+    id: '4',
+    name: 'Cerveza',
+    isBought: true,
+  },
 ];
 let idToModify = '';
 
