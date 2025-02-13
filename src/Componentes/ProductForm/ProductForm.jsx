@@ -3,6 +3,8 @@ import styles from './productForm.module.css';
 
 export default function ProductForm({ addItem }) {
   const [input, setInput] = useState('');
+  // lo ideal esq el estado sea un objeto, pero como solo tenemos un input
+  // puede inicializarse con un string vacío
 
   const handlerChange = (value) => {
     console.log(value);

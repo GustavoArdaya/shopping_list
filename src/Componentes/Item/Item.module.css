@@ -11,7 +11,7 @@
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  padding: 0 30px; 
+  padding: 0 30px;
 }
 
 .iconsContainer {
@@ -20,13 +20,9 @@
 }
 
 .editIcon {
-  color:white;
+  color: white;
 }
 
-/* .liContainer {
-    display: flex;
-    gap: 10px;
-} */
 .verde {
   background-color: rgba(33, 85, 33, 0.8);
 }
